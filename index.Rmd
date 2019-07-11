@@ -1,5 +1,3 @@
 ---
-title: "aka09's personal website"
+title: "Welcome to my website!"
 ---
-
-Hello, Website!

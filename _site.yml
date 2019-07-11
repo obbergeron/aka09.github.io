@@ -1,6 +1,6 @@
 name: "my-website"
 navbar:
-  title: "attaboy396's NBA website"
+  title: "NBA analytics"
   left:
     - text: "Home"
       href: index.html
