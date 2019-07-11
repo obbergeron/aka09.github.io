@@ -3,3 +3,5 @@ title: "BPM"
 ---
 
 Interactive chart:
+
+<iframe> 
