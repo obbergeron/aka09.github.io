@@ -3,3 +3,5 @@ title: "BPM"
 ---
 
 Interactive chart:
+
+  href: salary_bpm_col.html

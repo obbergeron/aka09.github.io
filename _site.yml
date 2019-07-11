@@ -1,12 +1,12 @@
 name: "my-website"
 navbar:
-  title: "My Website"
+  title: "attaboy396's NBA website"
   left:
     - text: "Home"
       href: index.html
     - text: "About"
       href: about.html
     - text: "BPM"
-      href: salary_bpm_col.html
+      href: BPM.Rmd
       
 output_dir: "."
