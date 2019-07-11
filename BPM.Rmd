@@ -4,4 +4,5 @@ title: "BPM"
 
 Interactive chart:
 
-  href: salary_bpm_col.html
+
+<a href="salary_bpm_col.html">here</a>
