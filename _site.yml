@@ -6,11 +6,7 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
-      
-output:
-  html_document:
-    theme: cosmo
-    highlight: textmate
-    css: styles.css
+    - text: "BPM"
+      href: BPM.html
       
 output_dir: "."

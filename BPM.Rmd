@@ -1,4 +1,7 @@
 ---
-title: BPM
-----
+title: "BPM"
+---
 
+Interactive chart: 
+
+salary_bpm_col.html
