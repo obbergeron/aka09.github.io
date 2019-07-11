@@ -7,6 +7,6 @@ navbar:
     - text: "About"
       href: about.html
     - text: "BPM"
-      href: BPM.Rmd
+      href: BPM.html
       
 output_dir: "."
