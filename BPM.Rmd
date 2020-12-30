@@ -7,9 +7,21 @@ title: "BPM"
 
 <a href="clutch_3pt.html">Clutch 3-point shooting, 2014-2019</a>
 
-hello dude 
+<b>Biggest year-over-year decline in rORTG:</b>
 
-```{r}
-reactable::reactable(iris)
+```{r,echo=FALSE,message=FALSE,warning=FALSE}
+library(tidyverse)
+load("tratings.Rdata")
+tratings_changes_2011_2021 %>% 
+  arrange(orating_rel_change) %>% 
+  slice(1:10) %>% 
+  dplyr::select(team, year, orating, orating_previous, orating_rel_change) %>% 
+  mutate_if(is.numeric, round, 1) %>% 
+  dplyr::rename(Team = team,
+                Season = year,
+                `Offensive rating` = orating,
+                `Offensive rating (previous season)` = orating_previous,
+                `Change in relative offensive rating` = orating_rel_change) %>% 
+  reactable::reactable()
 ```
 
