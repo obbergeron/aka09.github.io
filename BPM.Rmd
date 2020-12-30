@@ -6,3 +6,5 @@ title: "BPM"
 <a href="salary_bpm_col.html">BPM and salary</a>
 
 <a href="clutch_3pt.html">Clutch 3-point shooting, 2014-2019</a>
+
+hello dude 
