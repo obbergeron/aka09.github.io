@@ -8,3 +8,8 @@ title: "BPM"
 <a href="clutch_3pt.html">Clutch 3-point shooting, 2014-2019</a>
 
 hello dude 
+
+```{r}
+reactable::reactable(iris)
+```
+
