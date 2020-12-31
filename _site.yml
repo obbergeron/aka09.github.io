@@ -6,7 +6,9 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
-    - text: "NBA charts"
+    - text: "Old charts"
       href: BPM.html
+    - text: "Team performance"
+      href: team_performance.html
       
 output_dir: "."
