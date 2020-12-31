@@ -70,13 +70,30 @@ reactable::reactable(
   ratings,
   columns = list(
     orating_rel_change = colDef(
-      maxWidth = 55,
+      name = "Change in rORTG",
+      width = 120,
+      align = "center",
       class = "cell number",
       cell = function(value){
         scaled <- 1 - (value - min(ratings$orating_rel_change)) / (max(ratings$orating_rel_change) - min(ratings$orating_rel_change))
         color <- oratings_color(scaled)
         div(class = "spi-rating", style = list(background = color), value)
       }
+    ),
+    season = colDef(
+      name = "Season",
+      width = 70
+    ),
+    orating = colDef(
+      name = "ORTG",
+      width = 100
+    ),
+    orating_previous = colDef(
+      name = "Previous ORTG",
+      width = 100
+    ),
+    team = colDef(
+      name = "Team"
     )
   )
 )
