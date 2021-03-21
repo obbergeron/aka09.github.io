@@ -8,6 +8,6 @@ navbar:
     - text: "Home"
       href: index.html
     - text: "Conjoint experiment workshop"
-      href: cjoint_workshop.html
+      href: teaching.html
       
 output_dir: "."

@@ -2,4 +2,6 @@
 title: "Welcome to my website!"
 ---
 
-Lots of NBA-related data analysis.
+I am a masters student in political science at McGill University. I'm interested, broadly speaking, in political behavior and political economy, with methodological interests in causal inference and survey research. 
+
+This website is still under construction; it currently includes materials for a workshop on conjoint experiments that I taught in the Winter of 2021, as a well as lab materials from a graduate causal inference course. 

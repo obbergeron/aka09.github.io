@@ -1,8 +1,0 @@
----
-title: "Conjoint experiments workshop"
----
-
-```{r, fig.align='center', out.width='500\\linewidth', out.height='500\\lineheight', echo=FALSE}
-library(knitr)
-knitr::include_graphics("conjoint_workshop/conjoint_workshop.pdf")
-```
