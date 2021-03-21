@@ -2,7 +2,7 @@
 title: "Conjoint experiments workshop"
 ---
 
-```{r image-ref-for-in-text, echo = FALSE, message=FALSE, fig.align='center', fig.cap='Some cool caption', out.width='0.75\\linewidth', fig.pos='H'}
+```{r, fig.align='center', out.width='500\\linewidth', out.height='500\\lineheight', echo=FALSE}
 library(knitr)
 knitr::include_graphics("conjoint_workshop/conjoint_workshop.pdf")
 ```

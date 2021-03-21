@@ -7,12 +7,6 @@ navbar:
   left:
     - text: "Home"
       href: index.html
-    - text: "About"
-      href: about.html
-    - text: "Old charts"
-      href: BPM.html
-    - text: "Team performance"
-      href: team_performance.html
     - text: "Conjoint experiment workshop"
       href: cjoint_workshop.html
       
