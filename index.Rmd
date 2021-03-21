@@ -3,7 +3,7 @@ title: "Welcome to my website!"
 ---
 
 
-<div><img src="20191107_171006.jpg" width="200px" align="right" class="rotate90"></div>
+<div><img src="20191107_171006.jpg" width="350px" align="right" class="rotate90"></div>
 
 I am a masters student in Political Science at McGill University. I hold a B.A. in Political Science, also from McGill (2018).
 

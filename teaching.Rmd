@@ -16,7 +16,7 @@ title: "Teaching"
 + <a href="conjoint_workshop/conjoint_workshop.pdf">Slides</a>
 + <a href="conjoint_workshop/html_table.html">Template for HTML table</a>
 + <a href="conjoint_workshop/CSDC_conjoint_workshop.qsf">Qualtrics template (.qsf file)</a>
-+ <a href="conjoint_workshop/js_randomize.pdf">Javascript code for randomization</a>
++ <a href="conjoint_workshop/js_randomize.js">Javascript code for randomization</a>
 + The slides are alse here:
 
 ```{r, fig.align='center', out.width='500\\linewidth', out.height='500\\lineheight', echo=FALSE}
