@@ -7,7 +7,7 @@ navbar:
   left:
     - text: "Home"
       href: index.html
-    - text: "Conjoint experiment workshop"
+    - text: "Teaching materials"
       href: teaching.html
       
 output_dir: "."

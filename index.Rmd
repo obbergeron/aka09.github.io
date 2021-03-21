@@ -2,6 +2,10 @@
 title: "Welcome to my website!"
 ---
 
-I am a masters student in political science at McGill University. I'm interested, broadly speaking, in political behavior and political economy, with methodological interests in causal inference and survey research. 
+<div><img src="20191107_170106.jpg" width="200px" align="right"></div>
+
+I am a masters student in Political Science at McGill University. I hold a B.A. in Political Science, also from McGill (2018).
+
+I'm interested, broadly speaking, in political behavior and political economy, with methodological interests in causal inference and survey research. My recent research focuses on citizens' attitudes toward democracy and pathways to democratic backsliding. 
 
 This website is still under construction; it currently includes materials for a workshop on conjoint experiments that I taught in the Winter of 2021, as a well as lab materials from a graduate causal inference course. 
