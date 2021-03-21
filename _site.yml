@@ -1,6 +1,9 @@
 name: "my-website"
+output: 
+  html_document:
+    theme: flatly
 navbar:
-  title: "NBA analytics"
+  title: "Olivier Bergeron-Boutin"
   left:
     - text: "Home"
       href: index.html
@@ -10,5 +13,7 @@ navbar:
       href: BPM.html
     - text: "Team performance"
       href: team_performance.html
+    - text: "Conjoint experiment workshop"
+      href: cjoint_workshop.html
       
 output_dir: "."

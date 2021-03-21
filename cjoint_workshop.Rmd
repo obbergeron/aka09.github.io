@@ -1,0 +1,7 @@
+---
+title: "Conjoint experiments workshop"
+---
+
+\begin{center} <br>
+\includegraphics[width=8in]{conjoint_workshop/conjoint_workshop.pdf} <br>
+\end{center}
