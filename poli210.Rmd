@@ -1,10 +1,12 @@
 ---
-title: "POLI210"
+title: "Teaching materials for POLI210"
 ---
 
 This page contains material from POLI210 - Political Science Research Methods, an undergraduate course I taught at McGill University in Fall 2021. 
 
-```{r, fig.align='center', out.width='500\\linewidth', out.height='500\\lineheight', echo=FALSE}
+
+
+```{r, fig.align='center', out.width='700\\linewidth', out.height='900\\lineheight', echo=FALSE}
 library(knitr)
 knitr::include_graphics("210 materials/syllabus_210.pdf")
 ```
