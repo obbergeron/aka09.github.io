@@ -9,5 +9,7 @@ navbar:
       href: index.html
     - text: "Teaching materials"
       href: teaching.html
+    - text: "POLI210 (F2021)"
+      href: poli210.html
       
 output_dir: "."
