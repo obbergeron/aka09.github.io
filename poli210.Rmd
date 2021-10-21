@@ -6,7 +6,12 @@ This page contains material from POLI210 - Political Science Research Methods, a
 
 + <a href="210 materials/1.1-Introduction.pdf">Lecture 1.1: Introduction to the course</a>
 
+<b> Interactive apps </b>
+
++ [Sampling distributions](https://3nzgux-olivier-bergeron0boutin.shinyapps.io/shiny_sampling/)
+
 ```{r, fig.align='center', out.width='700\\linewidth', out.height='900\\lineheight', echo=FALSE}
 library(knitr)
 knitr::include_graphics("210 materials/syllabus_210.pdf")
 ```
+
