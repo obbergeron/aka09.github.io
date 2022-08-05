@@ -13,7 +13,7 @@
 
 <title>Teaching materials for POLI210</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
@@ -60,6 +60,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -80,6 +81,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -232,7 +236,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -270,31 +274,51 @@ $(document).ready(function () {
 </div>
 
 
-<p>This page contains material from POLI210 - Political Science Research Methods, an undergraduate course I taught at McGill University in Fall 2021.</p>
+<p>This page contains material from POLI210 - Political Science Research
+Methods, an undergraduate course I taught at McGill University in Fall
+2021.</p>
 <ul>
-<li><p><a href="210 materials/1.1-Introduction.pdf">Lecture 1.1: Introduction to the course</a></p></li>
-<li><p><a href="210 materials/2.1-Studying-Politics-Scientifically.pdf">Lecture 2.1: Studying politics scientifically</a></p></li>
-<li><p><a href="210 materials/2.2-The-Scientific-Process.pdf">Lecture 2.2: The scientific process</a></p></li>
-<li><p><a href="210 materials/3.1-Scientific-Literatures.pdf">Lecture 3.1: Scientific literatures</a></p></li>
-<li><p><a href="210 materials/3.2-Building-Theory.pdf">Lecture 3.2: Building theory</a></p></li>
-<li><p><a href="210 materials/4.1-Causality-I.pdf">Lecture 4.1: Causality I: the potential outcomes framework</a></p></li>
-<li><p><a href="210 materials/4.2-Experiments.pdf">Lecture 4.2: Causality II: random assignment</a></p></li>
-<li><p><a href="210 materials/5.2-Measurement.pdf">Lecture 5.1: Measurement</a></p></li>
-<li><p><a href="210 materials/6.1-Case-studies.pdf">Lecture 5.2: Case studies</a></p></li>
-<li><p><a href="210 materials/6.2-Comparative-method.pdf">Lecture 6.1: The comparative method</a></p></li>
-<li><p><a href="210 materials/8.2-Survey-research.pdf">Lecture 7.1: Survey research I: sampling</a></p></li>
-<li><p><a href="210 materials/9.1-Survey-research-II.pdf">Lecture 7.2: Survey research II: questionnaire design</a></p></li>
-<li><p><a href="210 materials/9.2-Means-and-distributions.pdf">Lecture 8.1: Describing data: means and distributions</a></p></li>
-<li><p><a href="210 materials/10.2_Measures_of_association.pdf">Lecture 8.2: Measures of association</a></p></li>
-<li><p><a href="210 materials/11.1-NHST.pdf">Lecture 9.1: Null hypothesis significance testing</a></p></li>
-<li><p><a href="210 materials/12.2-Linear-regression.pdf">Lecture 9.2: Linear regression I</a></p></li>
-<li><p><a href="210 materials/13.1-Linear-regression-II.pdf">Lecture 10.1: Linear regression II</a></p></li>
+<li><p><a href="210 materials/1.1-Introduction.pdf">Lecture 1.1:
+Introduction to the course</a></p></li>
+<li><p><a href="210 materials/2.1-Studying-Politics-Scientifically.pdf">Lecture
+2.1: Studying politics scientifically</a></p></li>
+<li><p><a href="210 materials/2.2-The-Scientific-Process.pdf">Lecture
+2.2: The scientific process</a></p></li>
+<li><p><a href="210 materials/3.1-Scientific-Literatures.pdf">Lecture
+3.1: Scientific literatures</a></p></li>
+<li><p><a href="210 materials/3.2-Building-Theory.pdf">Lecture 3.2:
+Building theory</a></p></li>
+<li><p><a href="210 materials/4.1-Causality-I.pdf">Lecture 4.1:
+Causality I: the potential outcomes framework</a></p></li>
+<li><p><a href="210 materials/4.2-Experiments.pdf">Lecture 4.2:
+Causality II: random assignment</a></p></li>
+<li><p><a href="210 materials/5.2-Measurement.pdf">Lecture 5.1:
+Measurement</a></p></li>
+<li><p><a href="210 materials/6.1-Case-studies.pdf">Lecture 5.2: Case
+studies</a></p></li>
+<li><p><a href="210 materials/6.2-Comparative-method.pdf">Lecture 6.1:
+The comparative method</a></p></li>
+<li><p><a href="210 materials/8.2-Survey-research.pdf">Lecture 7.1:
+Survey research I: sampling</a></p></li>
+<li><p><a href="210 materials/9.1-Survey-research-II.pdf">Lecture 7.2:
+Survey research II: questionnaire design</a></p></li>
+<li><p><a href="210 materials/9.2-Means-and-distributions.pdf">Lecture
+8.1: Describing data: means and distributions</a></p></li>
+<li><p><a href="210 materials/10.2_Measures_of_association.pdf">Lecture
+8.2: Measures of association</a></p></li>
+<li><p><a href="210 materials/11.1-NHST.pdf">Lecture 9.1: Null
+hypothesis significance testing</a></p></li>
+<li><p><a href="210 materials/12.2-Linear-regression.pdf">Lecture 9.2:
+Linear regression I</a></p></li>
+<li><p><a href="210 materials/13.1-Linear-regression-II.pdf">Lecture
+10.1: Linear regression II</a></p></li>
 </ul>
 <p><b> Interactive apps </b></p>
 <ul>
-<li><a href="https://3nzgux-olivier-bergeron0boutin.shinyapps.io/shiny_sampling/">Sampling distributions</a></li>
+<li><a
+href="https://3nzgux-olivier-bergeron0boutin.shinyapps.io/shiny_sampling/">Sampling
+distributions</a></li>
 </ul>
-<pre><code>## Warning: package &#39;knitr&#39; was built under R version 4.1.1</code></pre>
 <embed src="210 materials/syllabus_210.pdf" width="700\linewidth" height="900\lineheight" style="display: block; margin: auto;" type="application/pdf" />
 
 
